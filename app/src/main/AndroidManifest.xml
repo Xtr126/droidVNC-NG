@@ -72,13 +72,29 @@
 
         <activity android:name=".MainActivity"
             android:label="@string/main_activity_title"
-            android:launchMode="singleTask"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
+
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.title"
+                android:value="@string/app_name" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:value="@string/main_activity_title" />
+
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@mipmap/ic_launcher" />
+
         </activity>
 
         <activity android:name=".MediaProjectionRequestActivity"
