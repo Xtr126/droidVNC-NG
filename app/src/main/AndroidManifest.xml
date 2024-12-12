@@ -93,7 +93,7 @@
 
             <meta-data
                 android:name="com.android.settings.icon"
-                android:resource="@mipmap/ic_launcher" />
+                android:resource="@drawable/vnc" />
 
         </activity>
 
