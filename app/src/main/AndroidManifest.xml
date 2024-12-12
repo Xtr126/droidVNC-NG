@@ -24,9 +24,13 @@
     <application
         android:requestLegacyExternalStorage="true"
         android:allowBackup="true"
+        android:defaultToDeviceProtectedStorage="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:banner="@mipmap/banner"
         android:label="@string/app_name"
+        android:requiredForAllUsers="true"
+        android:taskAffinity=""
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -75,7 +79,6 @@
             android:exported="true">
 
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
