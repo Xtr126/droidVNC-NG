@@ -63,4 +63,5 @@
     <string name="notification_msg">为了能够显示服务器状态信息并提供更轻松地导航回管理面板的方法，建议启用通知。 您想立即启用通知吗？</string>
     <string name="mediaprojection_request_activity_fallback_screen_capture_title">检测到慢回退屏幕捕获模式</string>
     <string name="mediaprojection_request_activity_fallback_screen_capture_msg">您想现在升级到快速模式吗？</string>
+    <string name="settings_activity_name">VNC 设置</string>
 </resources>

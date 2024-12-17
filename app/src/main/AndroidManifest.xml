@@ -89,7 +89,7 @@
                 android:value="com.android.settings.category.ia.system" />
             <meta-data
                 android:name="com.android.settings.title"
-                android:value="@string/app_name" />
+                android:value="@string/settings_activity_name" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:value="@string/main_activity_title" />

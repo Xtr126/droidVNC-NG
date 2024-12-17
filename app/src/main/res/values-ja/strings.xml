@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name" translatable="false">droidVNC-NG</string>
     <string name="main_activity_title">droidVNC-NG管理パネル</string>
     <string name="main_activity_settings">設定</string>
     <string name="main_activity_settings_port">ポート</string>
@@ -64,4 +63,5 @@
     <string name="notification_msg">サーバーのステータス情報を表示し、より簡単にこの管理パネルを表示するために、通知を有効にすることを推奨します。通知を有効にしますか？</string>
     <string name="mediaprojection_request_activity_fallback_screen_capture_title">低速なフォールバックキャプチャモードが検出されました</string>
     <string name="mediaprojection_request_activity_fallback_screen_capture_msg">高速なモードに切り替えますか？</string>
+    <string name="settings_activity_name">VNC 設定</string>
 </resources>
