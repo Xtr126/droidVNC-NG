@@ -63,4 +63,5 @@
     <string name="notification_msg">Per vedere le informazioni sullo stato del server e tornare più facilmente alla pagina d\'amministrazione, si raccomanda di abilitare le notifiche. Abilitarle ora?</string>
     <string name="mediaprojection_request_activity_fallback_screen_capture_title">Individuata una modalità lenta di fallback per la cattura dello schermo</string>
     <string name="mediaprojection_request_activity_fallback_screen_capture_msg">Utilizzare la modalità veloce?</string>
+    <string name="settings_activity_name">Impostazioni di VNC</string>
 </resources>
